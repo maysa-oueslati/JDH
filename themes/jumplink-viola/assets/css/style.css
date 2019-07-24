@@ -1,0 +1,205 @@
+.center, .center-column, .top, .right, .bottom, .left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.center-column {
+    flex-direction: column;
+}
+
+.top    { align-items:     flex-start; }
+.right  { justify-content: flex-end;   }
+.bottom { align-items:     flex-end;   }
+.left   { justify-content: flex-start; }
+
+.single-spaced, .single-spaced * {
+    line-height: 1;
+}
+
+.button.is-primary {
+	background-color: #f6b500;
+}
+
+
+
+
+
+
+.img{
+	height: 246.84px;
+	width: 536.7px ;
+
+}
+
+.fr-box{
+	background-color: blanchedalmond;
+	padding-left: 25px ;
+	padding-bottom: 0px;
+	padding-right: 25px;
+	padding-top: 3px;
+}
+
+.rech{
+	width: 100%;
+	margin-bottom : 20px ;
+	margin-top: 10px;
+	padding-top: 10px
+}
+
+/* Always set the map height explicitly to define the size of the div
+      * element that contains the map. */
+#map {
+	height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.rating {
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	width: 9em;
+}
+
+.rating input {
+	position: absolute;
+	left: -999999px;
+}
+
+.rating label {
+	display: inline-block;
+	font-size: 0;
+}
+
+.rating > label:before {
+	position: relative;
+	font: 24px/1 FontAwesome;
+	display: block;
+	content: "\f005";
+	color: #ccc;
+	background: -webkit-linear-gradient(-45deg, #d9d9d9 0%, #b3b3b3 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before,
+.rating > label.selected:before,
+.rating > label.selected ~ label:before {
+	color: #f0ad4e;
+	background: -webkit-linear-gradient(-45deg, #fcb551 0%, #d69a45 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.marg{
+	margin-top: 4px;
+}
+
+
+.hero.is-medium .hero-body {
+	padding-bottom: 50px;
+	padding-top: 2rem;
+}
+@media (max-width: 1024px) {
+	.desktop {
+		display: none;
+	}
+}
+
+header .navbar.is-transparent {
+	margin-top: 1.5%;
+}
+
+
+
+
+/* Always set the map height explicitly to define the size of the div
+        * element that contains the map. */
+#map {
+	height: 300px;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+p .icon.is-small.is-left
+
+
+
+
+
+.nav-marg{
+margin-right: 50px;
+}
+.navbar-item{
+    color: #282448;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rating1 {
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	width: 9em;
+}
+
+.rating1 input {
+	position: absolute;
+	left: -999999px;
+}
+
+.rating1 label {
+	display: inline-block;
+	font-size: 0;
+}
+
+.rating1 > label:before {
+	position: relative;
+	font: 24px/1 FontAwesome;
+	display: block;
+	content: "\f111";
+	color: #ccc;
+	background: -webkit-linear-gradient(-45deg, #d9d9d9 0%, #b3b3b3 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.rating1 > label:hover:before,
+.rating1 > label:hover ~ label:before,
+.rating1 > label.selected:before,
+.rating1 > label.selected ~ label:before {
+	color: #f0ad4e;
+	background: -webkit-linear-gradient(-45deg, #fcb551 0%, #d69a45 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

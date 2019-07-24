@@ -1,0 +1,181 @@
+.center, .center-column, .top, .right, .bottom, .left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.center-column {
+    flex-direction: column;
+}
+
+.top    { align-items:     flex-start; }
+.right  { justify-content: flex-end;   }
+.bottom { align-items:     flex-end;   }
+.left   { justify-content: flex-start; }
+
+.single-spaced, .single-spaced * {
+    line-height: 1;
+}
+
+.button.is-primary {
+	background-color: #f6b500;
+}
+
+
+
+
+
+.img{
+	height: 246.84px;
+	width: 536.7px ;
+
+}
+
+.fr-box{
+	background-color: blanchedalmond;
+	padding-left: 25px ;
+	padding-bottom: 0px;
+	padding-right: 25px;
+	padding-top: 3px;
+}
+
+.rech{
+	width: 100%;
+	margin-bottom : 20px ;
+	margin-top: 10px;
+	padding-top: 10px
+}
+
+
+
+.marg{
+	margin-top: 4px;
+}
+
+
+.hero.is-medium .hero-body {
+	padding-bottom: 50px;
+	padding-top: 2rem;
+}
+@media (max-width: 1024px) {
+	.desktop {
+		display: none;
+	}
+}
+
+header .navbar.is-transparent {
+	margin-top: 1.5%;
+}
+
+
+
+
+/* Always set the map height explicitly to define the size of the div
+        * element that contains the map. */
+#map {
+	height: 300px;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+p .icon.is-small.is-left
+
+
+
+
+
+.nav-marg{
+margin-right: 50px;
+}
+.navbar-item{
+    color: #282448;
+}
+
+.back {
+	background: url("../images/pics/cows.jpg") center / cover ;
+	height: 600px;
+	}
+
+.h1{
+	height: 40px;
+}
+
+.b1{
+	background: url("../images/pics/1.png");
+	height:150px;
+	width:100% ;
+	background-size: cover;
+	background-blend-mode: multiply;
+	margin: 15px;
+	position: relative;
+
+}
+
+.b2{
+	background: url("../images/pics/2.png");
+	height:150px;
+	width:100% ;
+	background-size: cover;
+	background-blend-mode: multiply;
+	margin: 15px;
+	position: relative;
+}
+
+
+.b3{
+	background: url("../images/pics/3.png");
+	height:150px;
+	width:100%;
+	background-size: cover;
+	background-blend-mode: multiply;
+	margin: 15px;
+	position: relative;
+
+}
+
+.b4{
+	background: url("../images/pics/4.png");
+	height:150px;
+	width:100% ;
+	background-size: cover;
+	background-blend-mode: multiply;
+	margin: 15px;
+	position: relative;
+}
+
+
+.adem{
+
+	position: absolute;
+	width: 100%;
+
+
+
+
+}
+
+.bb{
+
+
+	background: url("../images/pics/5.png");
+	height:270px;
+	background-size: cover;
+
+	position: relative;
+	width: 100%;
+}
+
+.back1{
+	background-image: url("../images/pics/back1.png");
+	background-size: cover;
+}
+
+
+.back2{
+	background-image: url("../images/pics/back2.png");
+	background-size: cover;
+}

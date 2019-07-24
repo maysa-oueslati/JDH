@@ -1,0 +1,46 @@
+description = "Default layout"
+==
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>JDH Reservation</title>
+    <link rel="stylesheet" href="jquery.rateyo.min.css"/>
+    <link rel="stylesheet" href="bulma.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+    <link rel="stylesheet" href="rangeslider.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+</head>
+
+
+
+<body id="{{ str_studly(this.page.title) }}" data-spy="scroll">
+
+
+{%partial "header"%}
+
+{# Content #}
+<section id="layout-content">
+    {% page %}
+</section>
+
+{%partial "footer"%}
+
+
+{# Scripts #}
+<script src="{{ [
+            'assets/vendor/jquery/dist/jquery.js',
+            'assets/vendor/jquery-ui/jquery-ui.js',
+            'assets/javascript/app.js',
+        ]|theme }}"></script>
+
+
+
+</body>
+</html>
